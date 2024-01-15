@@ -1,0 +1,27 @@
+
+.listaCiudades{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  border-right: 2px solid black;
+}
+
+.lista{
+  margin: 1px 0;
+  align-items: flex-start;
+  padding: 0 2px;
+  list-style-type: none;
+}
+
+
+.ciudad{
+  padding: 10px 40px;
+}
+
+.ciudad:hover{
+  border-radius: 10px;
+  background-color: darkblue;
+}
